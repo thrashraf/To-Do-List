@@ -174,14 +174,18 @@ header .input-container{
     cursor: pointer;
     font-size: 15px;
     margin-top: 8px;
-    color: #ccc;
+    color: #000;
     position: relative;
     
 }
 
 .fa-trash-alt:hover{
+    
     color: #000;
+    
 }
+
+
 
 
 .list-container button{
@@ -221,27 +225,6 @@ header .input-container{
     text-decoration: line-through;
 }
 
-
-/* .check button {
-    background-image: linear-gradient(to right,  hsl(192, 100%, 67%) , hsl(280, 87%, 65%) );
- 
-}
-
-
-.check button:after{
-    position: absolute;
-    content: url('images/icon-check.svg');
-    top: 50%;
-    left: 50%;
-    transform: translate(-50% , -50%);
-    
-}
-
-.check button + .list p {
-    text-decoration: line-through;
-    text-decoration-color: #000;  
-    
-} */
 
 .list-container input , .list{
    display: inline-block;
@@ -290,25 +273,6 @@ header .input-container{
     text-decoration-color: #000;  
 }
 
-/* .checked:checked::before {
-    background-image: linear-gradient(to right,  hsl(192, 100%, 67%) , hsl(280, 87%, 65%) );
-}
-
-.checked:checked::after{
-    
-    position: absolute;
-    content: url('images/icon-check.svg');
-    
-}
-
-.checked:checked + .list p{
-    
-    text-decoration: line-through;
-    text-decoration-color: #000;  
-}  */
-
-
-
 
 
 .menu{
@@ -336,8 +300,11 @@ header .input-container{
     font-size: 15px;
     color: hsl(236, 72%, 18%);
     text-decoration: none;
+    cursor: pointer;
     
 }
+
+
 
 .menu-list a:hover{
     
@@ -422,7 +389,7 @@ header .input-container{
     background-color: #25273c;
 }
 
-.fa-trash-alt:hover{
+.theme2 .fa-trash-alt:hover{
     color: #ffffff;
 }
 
