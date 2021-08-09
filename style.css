@@ -30,7 +30,7 @@ body{
 }
 
 header{
-    background-image: url('images/bg-mobile-light.jpg');
+    background-image: url("../images/bg-mobile-light.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 200px;
@@ -280,7 +280,7 @@ header .input-container{
 .checkbox input:checked::after{
     
     position: absolute;
-    content: url('images/icon-check.svg');
+    content: url("../images/icon-check.svg");
     
 }
 
@@ -392,11 +392,11 @@ header .input-container{
 }
 
 .theme2 header{
-    background-image: url(images/bg-mobile-dark.jpg);
+    background-image: url("../images/bg-mobile-dark.jpg");
 }
 
 .theme2 .input img{
-    content: url('images/icon-sun.svg');
+    content: url("../images/icon-sun.svg");
 }
 
 .theme2 .input-box{
@@ -461,17 +461,17 @@ header .input-container{
 
 @media all and (min-width:500px) {
     header{
-        background-image: url('images/bg-desktop-light.jpg');
+        background-image: url("../images/bg-desktop-light.jpg");
     }
 
     .theme2 header{
-        background-image: url('images/bg-desktop-dark.jpg');
+        background-image: url("../images/bg-desktop-dark.jpg");
     }
 }
 
 @media all and (min-width:600px) {
     
-    header{
+    header {
         
     }
     .input h1{
