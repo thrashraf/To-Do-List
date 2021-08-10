@@ -92,7 +92,7 @@ header .input-container{
 }
 
 .fa-plus:hover{
-    color: black;
+    color: #ffff;
 }
 
 .input-container input{
@@ -174,7 +174,7 @@ header .input-container{
     cursor: pointer;
     font-size: 15px;
     margin-top: 8px;
-    color: #000;
+    color: #ccc;
     position: relative;
     
 }
@@ -387,6 +387,11 @@ header .input-container{
 .theme2  button{
    
     background-color: #25273c;
+}
+
+.theme2 .fa-trash-alt{
+    
+    color: #ffffff;
 }
 
 .theme2 .fa-trash-alt:hover{
